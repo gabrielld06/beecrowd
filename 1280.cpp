@@ -168,8 +168,8 @@ public:
 };
 
 int main() {
-	int m, n;
 	ulli t;
+	int m, n;
 	cin >> t;
 	while(t--) {
 		cin >> m >> n;
