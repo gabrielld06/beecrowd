@@ -15,7 +15,7 @@ int main() {
 			} else {
 				g_atual = m/(y+1);
 			}
-			if (g_atual < g_menor) 
+			if (g_atual <g_menor) 
 				g_menor = g_atual;
 		}
 	}
