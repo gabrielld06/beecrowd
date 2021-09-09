@@ -4,6 +4,8 @@ using namespace std;
 
 typedef long long ll;
 
+// just a faster way to do it
+
 int main() {
 	int n, sVisited = 0, star, stolen = 0, back = 0, i;
 	bool stop = false;
@@ -25,10 +27,11 @@ int main() {
 			if(star > 0)
 				stolen++;
 			sVisited++;
+			// break this loop so we can stop wasting time on those verifications
 			stop = true;
 		}
 	}
-	
+	// finish reading the input
 	for(;i < n;i++) {
 		scanf("%d", &star);
 		//cin >> star;
